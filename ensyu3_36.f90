@@ -38,5 +38,5 @@ contains
         complex(8) :: al(size(a,1),size(a,2))
 
         al
-
+	!すみません，未完成です．．．
 end module subprogs
