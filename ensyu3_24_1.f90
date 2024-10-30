@@ -43,12 +43,12 @@ program main
 
     write(*,*) 'A ='
     do j = 1, 3
-        write(*,*) a(i,1:3)
+        write(*,*) a(j,1:3)
     enddo
 
     write(*,*) 'A^{-T} ='
     do j = 1, 3
-        write(*,*) b(i,1:3)
+        write(*,*) b(j,1:3)
     enddo
 
     write(*,*) '|A| =', tenkai(a,i)
